@@ -8,10 +8,10 @@
 let s:nord_vim_version="0.15.0"
 let g:airline#themes#nord#palette = {}
 
-let s:nord0_gui = "#ECEFF4"
-let s:nord1_gui = "#E5E9F0"
-let s:nord2_gui = "#D8DEE9"
-let s:nord3_gui = "#88C0D0"
+let s:nord0_gui = "#FFFFFF"
+let s:nord1_gui = "#ECEFF4"
+let s:nord2_gui = "#E5E9F0"
+let s:nord3_gui = "#D8DEE9"
 let s:nord3_gui_bright = "#616E88"
 let s:nord4_gui = "#434C5E"
 let s:nord5_gui = "#3B4252"

@@ -8,10 +8,10 @@
 let s:nord_vim_version="0.15.0"
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
-let s:nord0 = ["#ECEFF4", "NONE"]
-let s:nord1 = ["#E5E9F0", 0]
-let s:nord2 = ["#D8DEE9", "NONE"]
-let s:nord3 = ["#88C0D0", 8]
+let s:nord0 = ["#FFFFFF", "NONE"]
+let s:nord1 = ["#ECEFF4", "NONE"]
+let s:nord2 = ["#E5E9F0", 0]
+let s:nord3 = ["#D8DEE9", "NONE"]
 let s:nord4 = ["#434C5E", "NONE"]
 let s:nord5 = ["#3B4252", 7]
 let s:nord6 = ["#2E3440", 15]
