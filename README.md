@@ -1,2 +1,5 @@
 # nord.vim
-nord light and dark themes for vim
+
+Copied from nordtheme.com
+
+Nord light and dark themes for vim
