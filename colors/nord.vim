@@ -173,16 +173,16 @@ call s:hi("iCursor", s:nord0_gui, s:nord4_gui, "", "NONE", "", "")
 call s:hi("LineNr", s:nord3_gui, "NONE", s:nord3_term, "NONE", "", "")
 call s:hi("MatchParen", s:nord8_gui, s:nord3_gui, s:nord8_term, s:nord3_term, "", "")
 call s:hi("NonText", s:nord2_gui, "", s:nord3_term, "", "", "")
-call s:hi("Normal", s:nord4_gui, "", "NONE", "NONE", "", "")
+call s:hi("Normal", s:nord4_gui, "NONE, "NONE", "NONE", "", "")
 call s:hi("PMenu", s:nord4_gui, s:nord2_gui, "NONE", s:nord1_term, "NONE", "")
 call s:hi("PmenuSbar", s:nord4_gui, s:nord2_gui, "NONE", s:nord1_term, "", "")
 call s:hi("PMenuSel", s:nord8_gui, s:nord3_gui, s:nord8_term, s:nord3_term, "", "")
 call s:hi("PmenuThumb", s:nord8_gui, s:nord3_gui, "NONE", s:nord3_term, "", "")
 call s:hi("SpecialKey", s:nord3_gui, "", s:nord3_term, "", "", "")
-call s:hi("SpellBad", s:nord11_gui, "", s:nord11_term, "NONE", "undercurl", s:nord11_gui)
-call s:hi("SpellCap", s:nord13_gui, "", s:nord13_term, "NONE", "undercurl", s:nord13_gui)
-call s:hi("SpellLocal", s:nord5_gui, "", s:nord5_term, "NONE", "undercurl", s:nord5_gui)
-call s:hi("SpellRare", s:nord6_gui, "", s:nord6_term, "NONE", "undercurl", s:nord6_gui)
+call s:hi("SpellBad", s:nord11_gui, "NONE", s:nord11_term, "NONE", "undercurl", s:nord11_gui)
+call s:hi("SpellCap", s:nord13_gui, "NONE", s:nord13_term, "NONE", "undercurl", s:nord13_gui)
+call s:hi("SpellLocal", s:nord5_gui, "NONE", s:nord5_term, "NONE", "undercurl", s:nord5_gui)
+call s:hi("SpellRare", s:nord6_gui, "NONE", s:nord6_term, "NONE", "undercurl", s:nord6_gui)
 call s:hi("Visual", "", s:nord2_gui, "", s:nord1_term, "", "")
 call s:hi("VisualNOS", "", s:nord2_gui, "", s:nord1_term, "", "")
 "+- Neovim Support -+
@@ -224,7 +224,7 @@ else
   call s:hi("CursorLineNr", s:nord4_gui, s:nord1_gui, "NONE", s:nord1_term, "NONE", "")
 endif
 call s:hi("Folded", s:nord3_gui, s:nord1_gui, s:nord3_term, s:nord1_term, s:bold, "")
-call s:hi("FoldColumn", s:nord3_gui, "", s:nord3_term, "NONE", "", "")
+call s:hi("FoldColumn", s:nord3_gui, "NONE", s:nord3_term, "NONE", "", "")
 call s:hi("SignColumn", s:nord1_gui, "NONE", s:nord1_term, "NONE", "", "")
 
 "+--- Navigation ---+
@@ -263,7 +263,7 @@ call s:hi("TabLineSel", s:nord8_gui, s:nord3_gui, s:nord8_term, s:nord3_term, "N
 call s:hi("Title", s:nord4_gui, "", "NONE", "", "NONE", "")
 
 if g:nord_bold_vertical_split_line == 0
-  call s:hi("VertSplit", s:nord2_gui, "", s:nord3_term, "NONE", "NONE", "")
+  call s:hi("VertSplit", s:nord2_gui, "NONE", s:nord3_term, "NONE", "NONE", "")
 else
   call s:hi("VertSplit", s:nord2_gui, s:nord1_gui, s:nord3_term, s:nord1_term, "NONE", "")
 endif
@@ -380,10 +380,10 @@ hi! link dtLocaleValue Keyword
 hi! link dtTypeValue Keyword
 
 if g:nord_uniform_diff_background == 0
-  call s:hi("DiffAdd", s:nord14_gui, "", s:nord14_term, "NONE", "inverse", "")
-  call s:hi("DiffChange", s:nord13_gui, "", s:nord13_term, "NONE", "inverse", "")
-  call s:hi("DiffDelete", s:nord11_gui, "", s:nord11_term, "NONE", "inverse", "")
-  call s:hi("DiffText", s:nord9_gui, "", s:nord9_term, "NONE", "inverse", "")
+  call s:hi("DiffAdd", s:nord14_gui, "NONE", s:nord14_term, "NONE", "inverse", "")
+  call s:hi("DiffChange", s:nord13_gui, "NONE", s:nord13_term, "NONE", "inverse", "")
+  call s:hi("DiffDelete", s:nord11_gui, "NONE", s:nord11_term, "NONE", "inverse", "")
+  call s:hi("DiffText", s:nord9_gui, "NONE", s:nord9_term, "NONE", "inverse", "")
 else
   call s:hi("DiffAdd", s:nord14_gui, s:nord1_gui, s:nord14_term, s:nord1_term, "", "")
   call s:hi("DiffChange", s:nord13_gui, s:nord1_gui, s:nord13_term, s:nord1_term, "", "")
