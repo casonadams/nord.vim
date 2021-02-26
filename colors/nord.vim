@@ -225,7 +225,7 @@ else
 endif
 call s:hi("Folded", s:nord3_gui, s:nord1_gui, s:nord3_term, s:nord1_term, s:bold, "")
 call s:hi("FoldColumn", s:nord3_gui, "", s:nord3_term, "NONE", "", "")
-call s:hi("SignColumn", s:nord1_gui, "", s:nord1_term, "NONE", "", "")
+call s:hi("SignColumn", s:nord1_gui, "NONE", s:nord1_term, "NONE", "", "")
 
 "+--- Navigation ---+
 call s:hi("Directory", s:nord8_gui, "", s:nord8_term, "NONE", "", "")
